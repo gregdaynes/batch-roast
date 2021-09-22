@@ -1,0 +1,47 @@
+{
+  "name": "batch-roast",
+  "version": "1.0.0",
+  "description": "Another static site generator",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./src/index.js",
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregdaynes/batch-roast.git"
+  },
+  "keywords": [
+    "Static",
+    "Site",
+    "Generator"
+  ],
+  "author": "Gregory Daynes <gregdaynes@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregdaynes/batch-roast/issues"
+  },
+  "homepage": "https://github.com/gregdaynes/batch-roast#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {
+    }
+  }
+}

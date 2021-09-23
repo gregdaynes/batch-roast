@@ -41,7 +41,18 @@
       "ecmaVersion": 12,
       "sourceType": "module"
     },
-    "rules": {
-    }
+    "rules": {}
+  },
+  "dependencies": {
+    "desm": "^1.2.0",
+    "rehype-stringify": "^9.0.2",
+    "remark": "^14.0.1",
+    "remark-frontmatter": "^4.0.0",
+    "remark-html": "^14.0.1",
+    "remark-parse": "^10.0.0",
+    "remark-rehype": "^9.0.0",
+    "remark-toc": "^8.0.0",
+    "unified": "^10.1.0",
+    "yaml": "^1.10.2"
   }
 }
